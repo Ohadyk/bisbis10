@@ -1,0 +1,5 @@
+INSERT INTO restaurants (name, average_rating, votes, is_kosher, cuisines)
+VALUES ('Taizu', 4.83, 10, false, ARRAY ['Asian', 'Mexican', 'Indian']),
+       ('Sofu', 3.89, 7, true, ARRAY ['Asian', 'Indian']);
+
+INSERT INTO dishes (name, description, price, restaurant_id) VALUES ('pizza', 'great one', 60, 1);
